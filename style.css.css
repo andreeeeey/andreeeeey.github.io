@@ -1,14 +1,4 @@
-#button{
-left: 490px;
-  top: 560px;
-  position:fixed;
-  z-index:1
-}
-#videobg{
-    min-width:100%;
-    min-height:100%;
-    width: auto;
-    height:auto;
-    position:fixed;
-    z-index:-1;
+*{
+margin: 0;
+padding : 0;
 }
