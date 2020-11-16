@@ -1,17 +1,17 @@
-#video1 {
+#videoBG {
   position: fixed;
   z-index: -1;
 }
 
 @media (min-aspect-ratio:16/9) {
-  #video1 {
+  #videoBG {
     width: 100%;
     height: auto;
   }
 }
 
 @media (min-aspect-ratio:16/9) {
-  #video1 {
+  #videoBG {
     width: auto;
     height: 100%;
   }
