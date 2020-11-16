@@ -9,3 +9,10 @@
     height: auto;
   }
 }
+
+@media (min-aspect-ratio:16/9) {
+  #video1 {
+    width: auto;
+    height: 100%;
+  }
+}
