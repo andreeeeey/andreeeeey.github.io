@@ -1,8 +1,11 @@
-*{
-margin: 0;
-padding : 0;
+#video1 {
+  position: fixed;
+  z-index: -1;
 }
 
-.videoback {
-  width: 100;
+@media (min-aspect-ratio:16/9) {
+  #video1 {
+    width: 100%;
+    height: auto;
+  }
 }
