@@ -2,13 +2,11 @@ html,body {
   margin: 0;
 }
 
-
 .full-screen-video-container {
   position: relative;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-
 }
 
 .full-screen-video-container video {
@@ -28,7 +26,6 @@ html,body {
   position: absolute;
   bottom:auto;
   width: min(1000px, 25000%);
-
 }
 
 .all-content {
@@ -41,8 +38,8 @@ html,body {
   bottom: 10px;
   left: 10px;
   right: 10px;
-
 }
+
 
   .btn0{
     z-index: 2;
@@ -52,9 +49,14 @@ html,body {
     font-weight: bolder;
     color: #1c1c1c;
     text-decoration:none;
+}
 
+@media (max-width: 1000px) {
+  .btn0 {
+    font-size: 53px;
   }
 
+}
 
   .btn1{
     z-index: 2;
@@ -65,8 +67,15 @@ html,body {
     color: white;
     text-decoration:none;
     top:150px;
+}
 
+@media (max-width: 1000px) {
+  .btn1 {
+    font-size: 150px;
+    top: 220px;
   }
+
+}
 
   .btn1:hover{
     color: #eb4034;
@@ -85,6 +94,14 @@ html,body {
     top:205px;
   }
 
+  @media (max-width: 1000px) {
+    .btn2 {
+      font-size: 150px;
+      top: 370px;
+    }
+
+  }
+
   .btn2:hover{
     color: #eb4034;
     transition: .5s;
@@ -99,6 +116,14 @@ html,body {
     color: white;
     text-decoration:none;
     top:260px;
+  }
+
+  @media (max-width: 1000px) {
+    .btn3 {
+      font-size: 150px;
+      top: 520px;
+    }
+
   }
 
   .btn3:hover{
@@ -132,7 +157,13 @@ html,body {
     font-family: sans-serif;
     color: #1c1c1c;
     font-weight: bold;
+  }
 
+  @media (max-width: 1000px) {
+    .main {
+      font-size: 33px;
+      top: 31px;
+    }
 
   }
 
@@ -145,6 +176,15 @@ html,body {
     height: 20px;
     left: 43px;
   }
+
+  @media (max-width: 1000px) {
+    .black {
+      width: 540px;
+      height: 40px;
+    }
+
+  }
+
   .black2 {
     z-index: 1;
     padding: 10px;
@@ -154,4 +194,13 @@ html,body {
     height: 20px;
     left: 43px;
     top: 66px;
+  }
+
+  @media (max-width: 1000px) {
+    .black2 {
+      width: 210px;
+      height: 15px;
+      top: 107px;
+    }
+
   }
