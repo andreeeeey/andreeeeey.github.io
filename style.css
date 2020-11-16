@@ -2,6 +2,7 @@ html,body {
   margin: 0;
 }
 
+
 .full-screen-video-container {
   position: relative;
   height: 100vh;
@@ -22,6 +23,14 @@ html,body {
   transform: translate(-50%, -50%);
 }
 
+.full-screen-video-content {
+  z-index: 1;
+  position: absolute;
+  bottom:auto;
+  width: min(1000px, 25000%);
+
+}
+
 .btn{
   font-size: 50px;
   font-family: sans-serif;
@@ -29,19 +38,52 @@ html,body {
   color: #bbbbbb;
   background-color: #1f1f1f;
   text-decoration: none;
-  position: absolute;
   font-weight: bold;
   transition: .1s;
+  position: absolute;
+  bottom: 250px;
+  left: 20px;
+
 }
 
 .btn:hover {
   color: white;
   background-color: #ff664b;
 }
+.btn1{
+  font-size: 50px;
+  font-family: sans-serif;
+  padding: 10px 50px;
+  color: #bbbbbb;
+  background-color: #1f1f1f;
+  text-decoration: none;
+  font-weight: bold;
+  transition: .1s;
+  position: absolute;
+  bottom: 165px;
+    left: 20px;
+}
 
-.full-screen-video-content {
-  position: relative;
-  left: 50px;
-  top: 600px;
-  right: auto;
+.btn1:hover {
+  color: white;
+  background-color: #ff664b;
+}
+.btn2{
+  font-size: 50px;
+  font-family: sans-serif;
+  padding: 10px 50px;
+  color: #bbbbbb;
+  background-color: #1f1f1f;
+  text-decoration: none;
+  font-weight: bold;
+  transition: .1s;
+  position: absolute;
+  left: 20px;
+  bottom: 80px;
+
+}
+
+.btn2:hover {
+  color: white;
+  background-color: #ff664b;
 }
