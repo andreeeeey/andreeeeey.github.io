@@ -31,103 +31,127 @@ html,body {
 
 }
 
-.btn{
-  font-size: 50px;
-  font-family: sans-serif;
-  padding: 10px 50px;
-  color: #bbbbbb;
-  background-color: #1f1f1f;
-  text-decoration: none;
-  font-weight: bold;
-  transition: .35s;
-  position: absolute;
-  bottom: 250px;
-  left: 20px;
+.all-content {
+  z-index: 1;
+  position: relative;
+  padding: 50px;
+  height: 700px;
+  width: 500px;
+  top: auto;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
 
 }
 
-.btn:hover {
-  color: #1f1f1f;
-  background-color: #bbbbbb;
-}
-.btn1{
-  font-size: 50px;
-  font-family: sans-serif;
-  padding: 10px 50px;
-  color: #bbbbbb;
-  background-color: #1f1f1f;
-  text-decoration: none;
-  font-weight: bold;
-  transition: .35s;
-  position: absolute;
-  bottom: 165px;
-    left: 20px;
-}
+  .btn0{
+    z-index: 2;
+    position: absolute;
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #1c1c1c;
+    text-decoration:none;
 
-.btn1:hover {
-  color: #1f1f1f;
-  background-color: #bbbbbb;
-}
-.btn2{
-  font-size: 50px;
-  font-family: sans-serif;
-  padding: 10px 50px;
-  color: #bbbbbb;
-  background-color: #1f1f1f;
-  text-decoration: none;
-  font-weight: bold;
-  transition: .35s;
-  position: absolute;
-  left: 20px;
-  bottom: 80px;
+  }
 
-}
 
-.btn2:hover {
-  color: #1f1f1f;
-  background-color: #bbbbbb;
-}
+  .btn1{
+    z-index: 2;
+    position: absolute;
+    font-size: 55px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration:none;
+    top:150px;
 
-.btn0{
-  font-size: 30px;
-  font-family: sans-serif;
-  padding: 10px 50px;
-  color: #ff664b;
-  background-color: transparent;
-  text-decoration: none;
-  font-weight: bolder;
-  transition: .35s;
-  position: absolute;
-  bottom: 850px;
-  left: 20px;
+  }
 
-}
+  .btn1:hover{
+    color: #eb4034;
+    transition: .5s;
 
-.btn0:hover {
-  color: white;
-  background-color: transparent;
-}
+  }
 
-.Aa{
-  font-size: 15px;
-  font-family: sans-serif;
-  padding: 10px 50px;
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-  font-weight: bold;
-  transition: .35s;
-  position: absolute;
-  bottom: 825px;
-  left: 20px;
-  opacity: 1;
+  .btn2{
+    z-index: 2;
+    position: absolute;
+    font-size: 55px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration:none;
+    top:205px;
+  }
 
-}
+  .btn2:hover{
+    color: #eb4034;
+    transition: .5s;
+  }
 
-.content2{
-  padding: 10px;
-  height: 1000px;
-  width: 1000px;
-  position: fixed;
+  .btn3{
+    z-index: 2;
+    position: absolute;
+    font-size: 55px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration:none;
+    top:260px;
+  }
 
-}
+  .btn3:hover{
+    color: #eb4034;
+    transition: .5s;
+  }
+
+  .btn4{
+    z-index: 2;
+    position: absolute;
+    font-size: 55px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration:none;
+    top:315px;
+  }
+
+  .btn4:hover{
+    color: #eb4034;
+    transition: .5s;
+  }
+
+
+
+  .main {
+    z-index: 2;
+    position: absolute;
+    top: 23px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #1c1c1c;
+    font-weight: bold;
+
+
+  }
+
+  .black {
+    z-index: 1;
+    padding: 10px;
+    position: absolute;
+    background-color: #eb4034;
+    width: 333px;
+    height: 20px;
+    left: 43px;
+  }
+  .black2 {
+    z-index: 1;
+    padding: 10px;
+    position: absolute;
+    background-color: #eb4034;
+    width: 105px;
+    height: 20px;
+    left: 43px;
+    top: 66px;
+  }
