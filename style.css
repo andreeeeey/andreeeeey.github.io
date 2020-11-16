@@ -14,10 +14,6 @@
   #videoBG {
     width: auto;
     height: 100%;
+    bottom: 100px;
   }
-}
-
-.VD{
-  position: relative;
-  bottom: 100px;
 }
