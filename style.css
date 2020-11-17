@@ -49,6 +49,7 @@ html,body {
     font-weight: bolder;
     color: #1c1c1c;
     text-decoration:none;
+    top: 53px;
 }
 
 @media (max-width: 1000px) {
@@ -155,11 +156,11 @@ html,body {
   .main {
     z-index: 2;
     position: absolute;
-    top: 23px;
-    font-size: 16px;
+    top: 28px;
+    font-size: 9.7px;
     font-family: sans-serif;
     color: #1c1c1c;
-    font-weight: bold;
+    font-weight: bolder;
   }
 
   @media (max-width: 1000px) {
@@ -175,9 +176,9 @@ html,body {
     padding: 10px;
     position: absolute;
     background-color: #eb4034;
-    width: 333px;
+    width: 420px;
     height: 20px;
-    left: 43px;
+    left: -10px;
   }
 
   @media (max-width: 1000px) {
@@ -193,9 +194,9 @@ html,body {
     padding: 10px;
     position: absolute;
     background-color: #eb4034;
-    width: 105px;
+    width: 420px;
     height: 20px;
-    left: 43px;
+    left: -10px;
     top: 66px;
   }
 
