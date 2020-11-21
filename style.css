@@ -162,8 +162,8 @@ html,body {
   .main {
     z-index: 2;
     position: absolute;
-    top: 28px;
-    font-size: 9.7px;
+    top: 26px;
+    font-size: 10.7px;
     font-family: sans-serif;
     color: #1c1c1c;
     font-weight: bolder;
@@ -171,7 +171,7 @@ html,body {
 
   @media (max-width: 1000px) {
     .main {
-      font-size: 30px;
+      font-size: 17px;
       top: 50px;
     }
 
@@ -190,7 +190,7 @@ html,body {
   @media (max-width: 1000px) {
     .black {
       width: 610px;
-      height: 150px;
+      height: 70px;
     }
 
   }
@@ -208,9 +208,8 @@ html,body {
 
   @media (max-width: 1000px) {
     .black2 {
-      width: 210px;
-      height: 15px;
-      top: 107px;
+      width: 610px;
+      height: 70px;
     }
 
   }
