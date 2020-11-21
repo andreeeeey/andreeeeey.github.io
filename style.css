@@ -72,7 +72,7 @@ html,body {
 
 @media (max-width: 1000px) {
   .btn1 {
-    font-size: 150px;
+    font-size: 130px;
     top: 220px;
   }
 
@@ -97,8 +97,8 @@ html,body {
 
   @media (max-width: 1000px) {
     .btn2 {
-      font-size: 150px;
-      top: 370px;
+      font-size: 130px;
+      top: 330px;
     }
 
   }
@@ -117,12 +117,16 @@ html,body {
     color: white;
     text-decoration:none;
     top:260px;
+    background-color: transparent;
+    border: none;
+    left: 42px;
+    outline:none;
   }
 
   @media (max-width: 1000px) {
     .btn3 {
-      font-size: 150px;
-      top: 520px;
+      font-size: 130px;
+      top: 440px;
     }
 
   }
@@ -131,6 +135,8 @@ html,body {
     color: #eb4034;
     transition: .5s;
   }
+
+
 
   .btn4{
     z-index: 2;
@@ -165,8 +171,8 @@ html,body {
 
   @media (max-width: 1000px) {
     .main {
-      font-size: 33px;
-      top: 31px;
+      font-size: 30px;
+      top: 50px;
     }
 
   }
@@ -183,8 +189,8 @@ html,body {
 
   @media (max-width: 1000px) {
     .black {
-      width: 540px;
-      height: 40px;
+      width: 610px;
+      height: 150px;
     }
 
   }
@@ -208,3 +214,74 @@ html,body {
     }
 
   }
+
+.TelegramButtonAppeared {
+
+  z-index: 2;
+  position: absolute;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration:none;
+  bottom: 10px;
+  left: 50px;
+
+}
+
+.TelegramBack{
+  z-index: 10;
+  padding: 10px;
+  position: absolute;
+  background-color: #0088cc;
+  width: 420px;
+  height: 40px;
+  left: -10px;
+  top: 360px;
+}
+
+@media (max-width: 1000px) {
+  .TelegramBack {
+    width: 630px;
+    height: 35px;
+    top: 600px;
+  }
+
+}
+
+
+
+.VKBack{
+  z-index: 10;
+  padding: 10px;
+  position: absolute;
+  background-color: #2787F5;
+  width: 420px;
+  height: 40px;
+  left: -10px;
+  top: 430px;
+  transition: .6;
+}
+
+@media (max-width: 1000px) {
+  .VKBack {
+    width: 630px;
+    height: 35px;
+    top: 670px;
+  }
+
+}
+
+.VkAppeared {
+
+  z-index: 10;
+  position: absolute;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration:none;
+  bottom: 10px;
+  left: 50px;
+  transition: .6;
+}

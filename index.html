@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
    <head>
+     <link rel="icon" href="image.png">
      <meta charset="utf-8" >
      <title>Portfolio</title>
+     <script>
+
+     function myFunction() {
+	document.getElementById("mainFrameOne").style.display="none";
+	document.getElementById("mainFrameTwo").style.display="block";
+  document.getElementById("mainFrameThree").style.display="block";
+}
+
+</script>
      <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -13,12 +23,21 @@
 
      <div class="all-content">
        <div class="black"></div><div class="black2"></div>
-       <a href="index.html" class="btn0">ANDREY DOLGAREV<h1 class="main">3D GENERALIST ‧ CINEMA 4D ‧ OCTANE ‧ ADOBE ‧ SUBSTANCE</h1></a>
+       <a href="index.html" class="btn0">ANDREY DOLGAREV<h1 class="main">3D ARTIST ‧ CINEMA 4D ‧ OCTANE ‧ ADOBE ‧ SUBSTANCE</h1></a>
        <a href="index1.html" class="btn1">REEL</a>
        <a href="1st" class="btn2">WORKS</a>
-       <a href="1st" class="btn3">CONTACTS</a>
 
-     </div>
+       <button class="btn3" onclick="myFunction()">CONTACT</button>
+
+       <div class="TelegramButtonHiden"id="mainFrameOne">
+       </div>
+
+       <div class="TelegramButtonAppear"id="mainFrameTwo" style="display:none;">
+       <div class="TelegramBack"><a href="https://t.me/wssssswsss" class="TelegramButtonAppeared">tg@swnnnnn</a></div>
+        <div class="VKBack"><a href="https://vk.com/swandrey" class="VkAppeared">vk/swandrey</a></div>
+       </div>
+
+
 
 
 
