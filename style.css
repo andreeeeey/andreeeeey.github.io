@@ -44,7 +44,7 @@ html,body {
   .btn0{
     z-index: 2;
     position: absolute;
-    font-size: 33px;
+    font-size: 2em;
     font-family: sans-serif;
     font-weight: bolder;
     color: #1c1c1c;
@@ -163,7 +163,7 @@ html,body {
     z-index: 2;
     position: absolute;
     top: 26px;
-    font-size: 10.7px;
+    font-size: .32em;
     font-family: sans-serif;
     color: #1c1c1c;
     font-weight: bolder;
