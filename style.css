@@ -72,7 +72,7 @@ html,body {
 
 @media (max-width: 1000px) {
   .btn1 {
-    font-size: 130px;
+    font-size: 90px;
     top: 220px;
   }
 
@@ -97,7 +97,7 @@ html,body {
 
   @media (max-width: 1000px) {
     .btn2 {
-      font-size: 130px;
+      font-size: 90px;
       top: 330px;
     }
 
@@ -125,7 +125,7 @@ html,body {
 
   @media (max-width: 1000px) {
     .btn3 {
-      font-size: 130px;
+      font-size: 90px;
       top: 440px;
     }
 
@@ -214,19 +214,9 @@ html,body {
 
   }
 
-.TelegramButtonAppeared {
 
-  z-index: 2;
-  position: absolute;
-  font-size: 35px;
-  font-family: sans-serif;
-  font-weight: bold;
-  color: white;
-  text-decoration:none;
-  bottom: 10px;
-  left: 50px;
 
-}
+
 
 .TelegramBack{
   z-index: 10;
@@ -242,12 +232,32 @@ html,body {
 @media (max-width: 1000px) {
   .TelegramBack {
     width: 630px;
-    height: 35px;
-    top: 600px;
+    height: 60px;
+    top: 580px;
   }
 
 }
 
+.TelegramButtonAppeared {
+
+  z-index: 2;
+  position: absolute;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration:none;
+  bottom: 10px;
+  left: 50px;
+
+}
+
+@media (max-width: 1000px) {
+  .TelegramButtonAppeared {
+    top: 17px;
+  }
+
+}
 
 
 .VKBack{
@@ -265,7 +275,7 @@ html,body {
 @media (max-width: 1000px) {
   .VKBack {
     width: 630px;
-    height: 35px;
+    height: 60px;
     top: 670px;
   }
 
@@ -283,4 +293,99 @@ html,body {
   bottom: 10px;
   left: 50px;
   transition: .6;
+
+
+}
+
+@media (max-width: 1000px) {
+  .VkAppeared {
+    top: 17px;
+  }
+}
+
+.Cars {
+  position: absolute;
+  top: 120px;
+  background-color: red;
+  width: 16.6vw;
+  height: 100vh;
+  left: -.8vw;
+  display: inline-block;
+
+}
+
+.Cars video {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.Instr {
+  position: absolute;
+  top: 120px;
+  background-color: blue;
+  width: 16.6vw;
+  height: 100vh;
+  left: 15.8vw;
+  display: inline-block;
+
+}
+
+.Instr video {
+  z-index: 1;
+  position: relative;
+  right: 100px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.Phone {
+  position: absolute;
+  top: 120px;
+  background-color: red;
+  width: 16.6vw;
+  height: 100vh;
+  left: 32.4vw;
+  display: inline-block;
+
+}
+
+.Trade {
+  position: absolute;
+  top: 120px;
+  background-color: blue;
+  width: 16.6vw;
+  height: 100vh;
+  left: 49vw;
+  display: inline-block;
+
+}
+
+.Watches {
+  position: absolute;
+  top: 120px;
+  background-color: red;
+  width: 16.6vw;
+  height: 100vh;
+  left: 65.6vw;
+  display: inline-block;
+
+}
+
+.Last {
+  position: absolute;
+  top: 120px;
+  background-color: blue;
+  width: 19vw;
+  height: 100vh;
+  left: 82.2vw;
+  display: inline-block;
+
 }
