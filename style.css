@@ -303,89 +303,224 @@ html,body {
   }
 }
 
-.Cars {
+.All{
   position: absolute;
-  top: 120px;
-  background-color: red;
-  width: 16.6vw;
-  height: 100vh;
-  left: -.8vw;
-  display: inline-block;
+  top: 18%;
+  width: 100%;
+  height: 100%;
+}
+
+.Cars {
+position: absolute;
+width: 200%;
+height: 20%;
+background-color:#eb4034;
+left: -10%;
 
 }
 
 .Cars video {
+
   z-index: 1;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   object-fit: cover;
   min-width: 100%;
   min-height: 100%;
+
+
+}
+
+.CarsText {
+  position: absolute;
+color:white;
+font-family: sans-serif;
+font-size: 400%;
+font-weight: bold;
+top:24%;
+left: 105%;
+
+}
+
+.Orange {
+  position: absolute;
+  width: 135%;
+  height: 100%;
+  background-color:#eb4034;
+  left: -10%;
+
 }
 
 .Instr {
-  position: absolute;
-  top: 120px;
-  background-color: blue;
-  width: 16.6vw;
-  height: 100vh;
-  left: 15.8vw;
-  display: inline-block;
+position: absolute;
+width: 200%;
+height: 20%;
+background-color:#eb4034;
+left: -10%;
+top: 20.1%;
 
 }
 
 .Instr video {
+
   z-index: 1;
-  position: relative;
-  right: 100px;
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  width: 50%;
+  height: 50%;
   object-fit: cover;
   min-width: 100%;
   min-height: 100%;
+
+
+}
+
+.InstrText {
+  position: absolute;
+color:white;
+font-family: sans-serif;
+font-size: 400%;
+font-weight: bold;
+top:24%;
+left: 105%;
+
+}
+
+.OrangeTwo {
+  position: absolute;
+  width: 158%;
+  height: 100%;
+  background-color:#eb4034;
+  left: -10%;
+
 }
 
 .Phone {
-  position: absolute;
-  top: 120px;
-  background-color: red;
-  width: 16.6vw;
-  height: 100vh;
-  left: 32.4vw;
-  display: inline-block;
+position: absolute;
+width: 200%;
+height: 20%;
+background-color:#eb4034;
+left: -10%;
+top: 40.2%;
 
 }
 
-.Trade {
+.Phone video {
+
+  z-index: 1;
   position: absolute;
-  top: 120px;
-  background-color: blue;
-  width: 16.6vw;
-  height: 100vh;
-  left: 49vw;
-  display: inline-block;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+
+
+}
+
+.PhoneText {
+  position: absolute;
+color:white;
+font-family: sans-serif;
+font-size: 400%;
+font-weight: bold;
+top:24%;
+left: 105%;
+
+}
+
+.OrangeThree {
+  position: absolute;
+  width: 138%;
+  height: 100%;
+  background-color:#eb4034;
+  left: -10%;
+
+}
+
+
+.Trade {
+position: absolute;
+width: 200%;
+height: 20%;
+background-color:#eb4034;
+left: -10%;
+top: 60.4%;
+
+}
+
+.Trade video {
+
+  z-index: 1;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+
+
+}
+
+.TradeText {
+  position: relative;
+color:white;
+font-family: sans-serif;
+font-size: 400%;
+font-weight: bold;
+top:24%;
+left: 105%;
+
+}
+
+.OrangeFour {
+  position: absolute;
+  width: 155%;
+  height: 100%;
+  background-color:#eb4034;
+  left: -10%;
 
 }
 
 .Watches {
-  position: absolute;
-  top: 120px;
-  background-color: red;
-  width: 16.6vw;
-  height: 100vh;
-  left: 65.6vw;
-  display: inline-block;
+position: absolute;
+width: 200%;
+height: 20%;
+background-color:#eb4034;
+left: -10%;
+top: 80.5%;
 
 }
 
-.Last {
+.Watches video {
+
+  z-index: 1;
   position: absolute;
-  top: 120px;
-  background-color: blue;
-  width: 19vw;
-  height: 100vh;
-  left: 82.2vw;
-  display: inline-block;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+
+
+}
+
+.WatchesText {
+  position: relative;
+color:white;
+font-family: sans-serif;
+font-size: 400%;
+font-weight: bold;
+top:24%;
+left: 105%;
+
+}
+
+.OrangeFive {
+  position: absolute;
+  width: 165%;
+  height: 100%;
+  background-color:#eb4034;
+  left: -10%;
 
 }
