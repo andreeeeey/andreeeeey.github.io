@@ -524,3 +524,67 @@ left: 105%;
   left: -10%;
 
 }
+
+
+.GOBACK{
+  position: absolute;
+  color: #1c1c1c;
+  top: 17%;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #eb4034;
+
+}
+
+.GOBACK:hover{
+    color: white;
+    background-color: #1c1c1c;
+    transition: .3s;
+}
+
+.First {
+  position: absolute;
+  color: white;
+  top: 25%;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.Second {
+  position: absolute;
+  color: white;
+  top: 35%;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  width: 1920px;
+  height: 100%;
+}
+
+.fstvid {
+  position: absolute;
+  top: 50%;
+  width: 500px;
+  height: 400px;
+}
+
+.sndvid {
+  position: absolute;
+  top: 50%;
+  width: 500px;
+  height: 400px;
+  left: 115.7%;
+}
+
+.third {
+  position: absolute;
+  top: 50%;
+  width: 500px;
+  height: 400px;
+  left: 223%;
+}
